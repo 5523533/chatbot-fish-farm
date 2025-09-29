@@ -49,26 +49,33 @@
 ## 🎯 معلومات Git Repository الحالي
 
 ### **📍 معلومات المشروع:**
-- **اسم المشروع**: "Chatbot for fish farm"
+
+- **اسم Git Repository**: `Chatbot for fish farm`
+- **اسم المشروع الكامل**: "Shrimp Farm Management Chatbot Application"
 - **المسار الكامل**: `D:\A\Applications under development\Chatbot for fish farm`
 - **نوع المشروع**: تطبيق شات بوت إدارة مزرعة الجمبري
 - **تاريخ الإنشاء**: سبتمبر 29، 2025
 
 ### **⚙️ إعدادات Git المحفوظة:**
+
+- **Repository Name**: `Chatbot for fish farm`
 - **اسم المستخدم**: `Chatbot Developer`
 - **البريد الإلكتروني**: `heshammostafa330@gmail.com`
 - **الفرع الحالي**: `master`
 - **حالة Repository**: نظيف ومحدث
+- **Git Directory**: `.git` (مُفعل ومُعد بشكل صحيح)
 
 ### **📝 سجل Commits الحالي:**
+
 - **آخر Commit Hash**: `fe43b19`
 - **آخر Commit Message**: "feat: Add advanced system improvements to project specifications"
 - **تاريخ آخر Commit**: Mon Sep 29 07:14:04 2025 +0300
-- **الملفات المتتبعة**: 
+- **الملفات المتتبعة**:
   - `.github/copilot-instructions.md` (668 سطر)
   - `.github/project-specification.md` (1240+ سطر)
 
 ### **🎖️ حالة المشروع الحالية:**
+
 - **Repository Status**: Working tree clean
 - **عدد الـ Commits**: 1 (root commit)
 - **الملفات غير المتتبعة**: لا توجد
@@ -76,6 +83,7 @@
 - **التغييرات غير المحفوظة**: لا توجد
 
 ### **🔧 الإعدادات التقنية المطبقة:**
+
 ```bash
 # الإعدادات المحلية للمشروع:
 user.name=Chatbot Developer
@@ -89,20 +97,31 @@ core.ignorecase=true
 ```
 
 ### **📋 أوامر Git المحفوظة للمشروع:**
+
 ```bash
-# للتحقق من حالة المشروع:
+# للانتقال إلى مجلد الـ Repository:
 cd "D:\A\Applications under development\Chatbot for fish farm"
+
+# للتحقق من حالة Repository "Chatbot for fish farm":
 git status
+
+# لعرض معلومات Repository:
+git remote -v
+git branch -a
 
 # لعرض آخر commit:
 git log -1 --pretty=fuller
 
-# للتحقق من الإعدادات:
-git config --list
+# للتحقق من إعدادات Repository:
+git config --list --local
 
-# لحفظ تغييرات جديدة:
+# لحفظ تغييرات جديدة في "Chatbot for fish farm":
 git add .
 git commit -m "رسالة وصفية"
+
+# إعدادات Repository الحالي:
+git config user.name "Chatbot Developer"
+git config user.email "heshammostafa330@gmail.com"
 ```
 
 ---
