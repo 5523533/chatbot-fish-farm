@@ -96,6 +96,32 @@ core.symlinks=false
 core.ignorecase=true
 ```
 
+### **🌐 معلومات GitHub Repository:**
+
+- **GitHub Repository URL**: `https://github.com/5523533/chatbot-fish-farm`
+- **Git Clone URL**: `https://github.com/5523533/chatbot-fish-farm.git`
+- **GitHub Username**: `5523533`
+- **Repository Name على GitHub**: `chatbot-fish-farm`
+- **النوع**: Public Repository
+- **تاريخ الإنشاء على GitHub**: سبتمبر 29، 2025
+- **Remote Name**: `origin`
+
+### **🔗 أوامر الربط مع GitHub:**
+
+```bash
+# إضافة GitHub remote:
+git remote add origin https://github.com/5523533/chatbot-fish-farm.git
+
+# تغيير الفرع إلى main:
+git branch -M main
+
+# رفع المشروع لأول مرة:
+git push -u origin main
+
+# للتحقق من الربط:
+git remote -v
+```
+
 ### **📋 أوامر Git المحفوظة للمشروع:**
 
 ```bash
@@ -115,9 +141,10 @@ git log -1 --pretty=fuller
 # للتحقق من إعدادات Repository:
 git config --list --local
 
-# لحفظ تغييرات جديدة في "Chatbot for fish farm":
+# لحفظ تغييرات جديدة ورفعها لـ GitHub:
 git add .
 git commit -m "رسالة وصفية"
+git push origin main
 
 # إعدادات Repository الحالي:
 git config user.name "Chatbot Developer"
