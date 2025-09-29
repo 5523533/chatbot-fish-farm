@@ -437,22 +437,35 @@ echo "✅ فحص الاتصال بالمستودع البعيد مكتمل"
 
 ### 🎯 القالب الأساسي:
 
+**نموذج رسالة Commit الاحترافية:**
+
+التنسيق: [نوع](نطاق): وصف مختصر
+
+**أمثلة على الأنواع:**
+- feat: إضافة ميزة جديدة
+- fix: إصلاح خطأ
+- docs: تحديث التوثيق
+- style: تغييرات التنسيق
+- refactor: إعادة هيكلة الكود
+- test: إضافة اختبارات
+- chore: مهام عامة
+
+**مثال كامل:**
 ```
-[type](scope): brief description
+feat(frontend): Add chatbot interface with AI integration
 
 📝 Detailed explanation of changes:
-- What was changed and why
-- Benefits and improvements achieved
-- Any important notes for developers
+- Added interactive chatbot interface for farm management
+- Integrated OpenRouter API for AI-powered responses
+- Implemented real-time data synchronization
 
 🔧 Technical Details:
-- Files modified: [list main files]
-- Dependencies affected: [if any]
-- Breaking changes: [if any]
+- Files modified: index.html, chatbot.js, styles.css
+- Dependencies added: OpenRouter API integration
 
 ✅ Testing:
-- Tests run: [describe testing done]
-- Verification: [how changes were verified]
+- Tests run: Manual testing of all chatbot functions
+- Verification: AI responses working correctly
 ```
 
 ## 🚨 مبادئ أمان Git الأساسية
